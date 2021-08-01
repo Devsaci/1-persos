@@ -14,9 +14,6 @@ class PersonnageController extends AbstractController
     public function index(): Response
     {
         return $this->render('personnage/index.html.twig', [
-            /* 'controller_name' => 'PersonnageController', */
-            'controller_name' => 'PersonnageController',
-
-        ]);
+            /* 'controller_name' => 'PersonnageController', */]);
     }
 }
